@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#container {
+    background-color: aqua;
+    margin:auto;
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid orange;
+}
+
+img {
+    width: 100px;
+}
+
+
+.content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 5px solid rgb(105, 0, 243);
+}
+
+.content:hover {
+    background-color: blueviolet;
+}
